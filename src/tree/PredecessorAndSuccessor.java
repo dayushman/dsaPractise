@@ -18,8 +18,8 @@ public class PredecessorAndSuccessor {
             }
         }else if (state == 1){
             state = 2;
-        }else if (state == 2){
             successor = node;
+        }else if (state == 2){
             return;
         }
         for (Node children : node.children){
